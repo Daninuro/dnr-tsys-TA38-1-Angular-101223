@@ -1,0 +1,47 @@
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Esto centrará el formulario horizontalmente */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Esto asegura que el padding no incremente el ancho total */
+}
+label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+input,
+select {
+    width: 90%; /* Ajusta el ancho de los campos al 100% del formulario */
+    padding: 10px; 
+    margin-bottom: 15px; 
+}
+
+button {
+    background-color: #007BFF; 
+    color: #fff; 
+    padding: 10px 15px; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #3c7ec9; 
+}
+
+p {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 15px; 
+}
+
+h2 {
+text-align: center;
+font-size: 40px;
+}
